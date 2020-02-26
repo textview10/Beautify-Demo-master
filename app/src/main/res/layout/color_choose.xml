@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:id="@+id/color_choose_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/color_0"
+            style="@style/ColorChooseRadioStyle"
+            android:background="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/color_1"
+            style="@style/ColorChooseRadioStyle"
+            android:background="#FF00FF"/>
+
+        <RadioButton
+            android:id="@+id/color_2"
+            style="@style/ColorChooseRadioStyle"
+            android:background="#CD2626" />
+
+        <RadioButton
+            android:id="@+id/color_3"
+            style="@style/ColorChooseRadioStyle"
+            android:background="#A52A2A"/>
+
+        <RadioButton
+            android:id="@+id/color_4"
+            style="@style/ColorChooseRadioStyle"
+            android:background="#F08080" />
+
+        <RadioButton
+            android:id="@+id/color_5"
+            style="@style/ColorChooseRadioStyle"
+            android:background="#EE9A49" />
+
+        <RadioButton
+            android:id="@+id/color_6"
+            style="@style/ColorChooseRadioStyle"
+            android:background="#CD2626" />
+
+        <RadioButton
+            android:id="@+id/color_7"
+            style="@style/ColorChooseRadioStyle"
+            android:background="#A52A2A"/>
+
+        <RadioButton
+            android:id="@+id/color_8"
+            style="@style/ColorChooseRadioStyle"
+            android:background="#F08080" />
+
+        <RadioButton
+            android:id="@+id/color_9"
+            style="@style/ColorChooseRadioStyle"
+            android:background="#EE9A49" />
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>

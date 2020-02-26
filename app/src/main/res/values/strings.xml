@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">旷视美颜</string>
+
+    <string name="title_activity_main">旷视美颜</string>
+    <string name="version">版本</string>
+    <string name="seekbartitle">选项</string>
+    <string name="sticker">贴纸</string>
+    <string name="filter">滤镜</string>
+    <string name="beautity">美型</string>
+    <string name="beauty">美颜</string>
+    <string name="cut_image">抠像</string>
+    <string name="denoise">磨皮</string>
+    <string name="white">美白</string>
+    <string name="brighteneye">亮眼</string>
+    <string name="tooth">美牙</string>
+    <string name="red">红润</string>
+    <string name="removespeckles">祛斑</string>
+    <string name="removeeyebags">祛眼袋</string>
+    <string name="highnosebridge">高鼻梁</string>
+    <string name="upcheek">提脸颊</string>
+    <string name="eye">大眼</string>
+    <string name="face">小脸</string>
+    <string name="removeeyebrow">去眉毛</string>
+    <string name= "skinbalance">肤色均衡</string>
+    <string name="thinface">瘦脸</string>
+    <string name="makeup">美妆</string>
+    <string name="eyebrow">染眉</string>
+    <string name="lip">美唇</string>
+    <string name="blush">腮红</string>
+    <string name="shading">修容</string>
+    <string name="eyeshadow">眼影</string>
+    <string name="contactlens">美瞳</string>
+    <string name="title_activity_launch">LaunchActivity</string>
+    <string name="text_saved">保存成功</string>
+    <string name="err_camera">open camera failed</string>
+    <string name="err_gallery">open gallery failed</string>
+    <string name="beaufify_demo">美颜Demo</string>
+    <string name="realtime_preview">实时预览</string>
+    <string name="post_process">拍照后处理</string>
+    <string name="batch_post_process">批量后处理</string>
+    <string name="save">保存</string>
+    <string name="marks">标记</string>
+    <string name="click_download">点击下载</string>
+    <string name="downloading">下载中</string>
+    <string name="origin">原图</string>
+    <string name="gallery">相册</string>
+</resources>

@@ -1,0 +1,94 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/cpp/CMakeLists.txt",
+		"C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/cpp/beautify_image/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"C:\\develop\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\.cxx\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"MegviiBeautify-jni-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "MegviiBeautify-jni",
+			"buildCommand" : "C:\\develop\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\.cxx\\cmake\\debug\\armeabi-v7a --target MegviiBeautify-jni",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi17 --gcc-toolchain=C:/develop/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/develop/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DMegviiBeautify_jni_EXPORTS -I. -IC:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp -IC:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/cpp/megvii_beautify_jni.cpp",
+					"workingDirectory" : "C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi17 --gcc-toolchain=C:/develop/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/develop/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DMegviiBeautify_jni_EXPORTS -I. -IC:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp -IC:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/cpp/beautify_handler.cpp",
+					"workingDirectory" : "C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi17 --gcc-toolchain=C:/develop/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/develop/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DMegviiBeautify_jni_EXPORTS -I. -IC:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp -IC:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/cpp/gl_context_handler.cpp",
+					"workingDirectory" : "C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi17 --gcc-toolchain=C:/develop/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/develop/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DMegviiBeautify_jni_EXPORTS -I. -IC:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp -IC:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/cpp/WorkerThread.cpp",
+					"workingDirectory" : "C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/jniLibs/armeabi-v7a/libMegviiBeautify-jni.so",
+			"toolchain" : "3385023329"
+		},
+		"MegviiBeautifyImage-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "MegviiBeautifyImage",
+			"buildCommand" : "C:\\develop\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\.cxx\\cmake\\debug\\armeabi-v7a --target MegviiBeautifyImage",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi17 --gcc-toolchain=C:/develop/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/develop/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DMegviiBeautifyImage_EXPORTS -Ibeautify_image -IC:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp\\beautify_image -IC:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp\\include -IC:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp\\beautify_image\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DEGL_EGLEXT_PROTOTYPES -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/cpp/beautify_image/src/bare_format_transform.cpp",
+					"workingDirectory" : "C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/jniLibs/armeabi-v7a/libMegviiBeautifyImage.so",
+			"toolchain" : "3385023329"
+		},
+		"MegviiDlmk-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "MegviiDlmk",
+			"buildType" : "debug",
+			"output" : "C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/cpp/../jniLibs/armeabi-v7a/libMegviiDlmk.so",
+			"toolchain" : "3385023329"
+		},
+		"beauty-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "beauty",
+			"buildType" : "debug",
+			"output" : "C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/cpp/../jniLibs/armeabi-v7a/libMGBeauty.so",
+			"toolchain" : "3385023329"
+		}
+	},
+	"toolchains" : 
+	{
+		"3385023329" : 
+		{
+			"cCompilerExecutable" : "C:/develop/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/develop/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

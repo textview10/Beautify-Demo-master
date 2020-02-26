@@ -1,0 +1,8 @@
+Executable : C:\develop\Sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+--build
+C:\Users\bignox\Desktop\Beautify-Demo-master\megviibeautyjni\.cxx\cmake\debug\arm64-v8a
+--target
+MegviiBeautify-jni
+jvmArgs : 
+

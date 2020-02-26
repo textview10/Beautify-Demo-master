@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.megvii.beautify.main.MainActivity">
+    <!--android:background="#0099cc"-->
+    <com.megvii.beautify.cameragl.CameraSurfaceView
+        android:id="@+id/facepp_layout_surfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:id="@+id/iv_test"
+        android:layout_width="100dp"
+        android:visibility="gone"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/statics_info"
+        android:layout_width="150dp"
+        android:background="#7f000000"
+        android:text="asdasd"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:id="@+id/main_cameraSwitch"
+        android:layout_width="30dip"
+        android:layout_height="27dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/camera_switch"
+        android:visibility="visible" />
+    <Button
+        android:id="@+id/facepp_layout_debugSwitch"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="27dp"
+        android:layout_toLeftOf="@+id/main_cameraSwitch"
+        android:background="@drawable/debug_close" />
+
+    <Button
+        android:id="@+id/landmark_switch"
+        android:text="@string/marks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="27dp"
+        android:layout_toLeftOf="@+id/facepp_layout_debugSwitch"
+       />
+
+
+    <Button
+        android:id="@+id/takepicture"
+        android:text="@string/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="27dp"
+        android:layout_toLeftOf="@+id/landmark_switch"
+        />
+
+    <RadioGroup
+        android:id="@+id/main_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_overlay"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/none"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <RadioButton
+            android:id="@+id/sticker"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/sticker"
+            android:gravity="center"
+            android:text="@string/sticker" />
+
+        <RadioButton
+            android:id="@+id/filter"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/filter"
+            android:gravity="center"
+            android:text="@string/filter" />
+
+        <RadioButton
+            android:id="@+id/beauty"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/beauty"
+            android:gravity="center"
+            android:text="@string/beauty" />
+
+        <RadioButton
+            android:id="@+id/beautity"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/beautity"
+            android:gravity="center"
+            android:text="@string/beautity" />
+
+        <RadioButton
+            android:id="@+id/makeup"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/beautity"
+            android:gravity="center"
+            android:text="@string/makeup" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_overlay"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <include layout="@layout/fragment_title_view" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <com.megvii.beautify.ui.SeekBarRelativeLayout
+            android:id="@+id/eyebrow"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.megvii.beautify.util.ChooseColorLayout
+            android:id="@+id/eyebrow_template"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.megvii.beautify.ui.SeekBarRelativeLayout
+            android:id="@+id/lip"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.megvii.beautify.util.ChooseColorLayout
+            android:id="@+id/lip_color"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.megvii.beautify.ui.SeekBarRelativeLayout
+            android:id="@+id/blush"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.megvii.beautify.util.ChooseColorLayout
+            android:id="@+id/blush_color"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.megvii.beautify.util.ChooseColorLayout
+            android:id="@+id/blush_template"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.megvii.beautify.ui.SeekBarRelativeLayout
+            android:id="@+id/eyeshadow"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.megvii.beautify.util.ChooseColorLayout
+            android:id="@+id/eyeshadow_color"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.megvii.beautify.util.ChooseColorLayout
+            android:id="@+id/eyeshadow_template"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.megvii.beautify.ui.SeekBarRelativeLayout
+            android:id="@+id/shading"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.megvii.beautify.util.ChooseColorLayout
+            android:id="@+id/shading_template"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.megvii.beautify.ui.SeekBarRelativeLayout
+            android:id="@+id/contactlens"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.megvii.beautify.util.ChooseColorLayout
+            android:id="@+id/contactlens_template"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="75dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

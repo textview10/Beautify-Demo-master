@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+    <include
+        android:id="@+id/rl_info"
+        layout="@layout/include_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <ImageView
+        android:id="@+id/process_image_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_bottom"
+        android:layout_below="@+id/rl_info"
+        android:background="@drawable/bg_img"
+        android:scaleType="centerCrop"/>
+
+
+    <RelativeLayout
+        android:layout_marginBottom="40dp"
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip">
+        <com.megvii.beautify.util.FiveChooseView
+            android:id="@+id/choose_value"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="90dp" />
+        <LinearLayout
+            android:id="@+id/ll_gallery"
+            android:layout_below="@+id/choose_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_photograph"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="相册"
+                android:textColor="#555555"
+                android:textSize="11sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_gallery"
+            android:layout_toLeftOf="@+id/ll_download"
+            android:layout_toRightOf="@+id/ll_gallery"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:visibility="visible">
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_mopi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="磨皮"
+                android:textColor="#555555"
+                android:textSize="13sp"/>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_meibai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="美白"
+                android:textColor="#555555"
+                android:textSize="13sp"/>
+
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_hongrun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="红润"
+                android:textColor="#555555"
+                android:textSize="13sp"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_dayan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="大眼"
+                android:textColor="#555555"
+                android:textSize="13sp"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_shoulian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="瘦脸"
+                android:textColor="#555555"
+                android:textSize="13sp"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_xiaolian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="小脸"
+                android:textColor="#555555"
+                android:textSize="13sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:id="@+id/ll_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_download_new"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="保存"
+                android:textColor="#555555"
+                android:textSize="11sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

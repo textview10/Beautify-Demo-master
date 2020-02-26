@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.megvii.beautify">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- For images from picasa -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".app.MainApp"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:screenOrientation="portrait"
+        android:icon="@drawable/logo"
+        android:theme="@android:style/Theme.Holo.NoActionBar.TranslucentDecor">
+        <activity
+            android:name=".login.LoadingActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name=".main.LaunchActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".main.PostProcessActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_main"></activity>
+
+        <activity
+            android:name=".main.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_main"></activity>
+        <activity
+            android:name=".main.ActivityGallery"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/title_activity_main"></activity>
+        <activity
+            android:name=".ui.test.ImageTest.ReadBitmapActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:label="@string/title_activity_main"></activity>
+
+
+        <activity
+            android:name=".ui.test.TestActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_main"></activity>
+        <activity
+            android:name=".ui.test.Interfacetest.TestInitActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_main"></activity>
+        <activity
+            android:name=".ui.test.VideoTest.TestVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_main"></activity>
+
+
+    </application>
+
+    <!--<application-->
+        <!--android:name=".app.MainApp"-->
+        <!--android:allowBackup="true"-->
+        <!--android:label="@string/app_name"-->
+        <!--android:supportsRtl="true"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:icon="@drawable/logo"-->
+        <!--android:theme="@android:style/Theme.Holo.NoActionBar.TranslucentDecor">-->
+        <!--<activity-->
+            <!--android:name=".ui.test.TestActivity"-->
+            <!--android:screenOrientation="portrait">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+
+        <!--<activity-->
+            <!--android:name=".main.MainActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:label="@string/title_activity_main"></activity>-->
+        <!--<activity-->
+            <!--android:name=".main.ActivityGallery"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:exported="true"-->
+            <!--android:label="@string/title_activity_main"></activity>-->
+        <!--<activity-->
+            <!--android:name=".ui.test.ImageTest.ReadBitmapActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:exported="true"-->
+            <!--android:label="@string/title_activity_main"></activity>-->
+
+
+        <!--<activity-->
+            <!--android:name=".login.LoadingActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:label="@string/title_activity_main"></activity>-->
+        <!--<activity-->
+            <!--android:name=".ui.test.Interfacetest.TestInitActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:label="@string/title_activity_main"></activity>-->
+        <!--<activity-->
+            <!--android:name=".ui.test.VideoTest.TestVideoActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:label="@string/title_activity_main"></activity>-->
+
+
+    <!--</application>-->
+
+</manifest>

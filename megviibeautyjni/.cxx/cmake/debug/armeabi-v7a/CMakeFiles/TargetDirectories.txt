@@ -1,0 +1,6 @@
+C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/MegviiBeautify-jni.dir
+C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/.cxx/cmake/debug/armeabi-v7a/beautify_image/CMakeFiles/MegviiBeautifyImage.dir
+C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/.cxx/cmake/debug/armeabi-v7a/beautify_image/CMakeFiles/edit_cache.dir
+C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/.cxx/cmake/debug/armeabi-v7a/beautify_image/CMakeFiles/rebuild_cache.dir

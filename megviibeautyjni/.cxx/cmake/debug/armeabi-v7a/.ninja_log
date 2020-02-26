@@ -1,0 +1,19 @@
+# ninja log v5
+1	515	0	beautify_image/CMakeFiles/MegviiBeautifyImage.dir/src/bare_format_transform.cpp.o	792d043db2465a48
+515	675	0	C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/jniLibs/armeabi-v7a/libMegviiBeautifyImage.so	d1764d235cfd2e46
+686	1444	0	CMakeFiles/MegviiBeautify-jni.dir/gl_context_handler.cpp.o	87edb3a8867a86b4
+683	1738	0	CMakeFiles/MegviiBeautify-jni.dir/beautify_handler.cpp.o	523cfda073d041af
+675	1997	0	CMakeFiles/MegviiBeautify-jni.dir/WorkerThread.cpp.o	8411e821ebe66f39
+679	2061	0	CMakeFiles/MegviiBeautify-jni.dir/megvii_beautify_jni.cpp.o	adf3b0894847d2ce
+2061	2194	0	C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/jniLibs/armeabi-v7a/libMegviiBeautify-jni.so	8ab7a5258f994cc3
+6	244	0	C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/build/intermediates/cmake/debug/obj/armeabi-v7a/libMegviiBeautifyImage.so	11bb00773925072e
+244	596	0	C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/build/intermediates/cmake/debug/obj/armeabi-v7a/libMegviiBeautify-jni.so	780e303d2233376d
+4	276	0	beautify_image/CMakeFiles/MegviiBeautifyImage.dir/src/bare_format_transform.cpp.o	792d043db2465a48
+276	375	0	C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/build/intermediates/cmake/debug/obj/armeabi-v7a/libMegviiBeautifyImage.so	11bb00773925072e
+378	976	0	CMakeFiles/MegviiBeautify-jni.dir/gl_context_handler.cpp.o	87edb3a8867a86b4
+384	1183	0	CMakeFiles/MegviiBeautify-jni.dir/beautify_handler.cpp.o	523cfda073d041af
+375	1454	0	CMakeFiles/MegviiBeautify-jni.dir/WorkerThread.cpp.o	8411e821ebe66f39
+381	1555	0	CMakeFiles/MegviiBeautify-jni.dir/megvii_beautify_jni.cpp.o	adf3b0894847d2ce
+1555	1669	0	C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/build/intermediates/cmake/debug/obj/armeabi-v7a/libMegviiBeautify-jni.so	780e303d2233376d
+2	90	0	C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/jniLibs/armeabi-v7a/libMegviiBeautifyImage.so	d1764d235cfd2e46
+90	204	0	C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/jniLibs/armeabi-v7a/libMegviiBeautify-jni.so	8ab7a5258f994cc3

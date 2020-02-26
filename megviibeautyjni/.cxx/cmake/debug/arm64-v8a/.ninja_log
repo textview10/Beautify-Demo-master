@@ -1,0 +1,8 @@
+# ninja log v5
+1	227	0	beautify_image/CMakeFiles/MegviiBeautifyImage.dir/src/bare_format_transform.cpp.o	666897290b54fa17
+227	288	0	C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/jniLibs/arm64-v8a/libMegviiBeautifyImage.so	cb3ea87ec06cfaf5
+292	882	0	CMakeFiles/MegviiBeautify-jni.dir/gl_context_handler.cpp.o	c5c78116dc84b086
+290	1138	0	CMakeFiles/MegviiBeautify-jni.dir/beautify_handler.cpp.o	317395f4d998cdb6
+294	1407	0	CMakeFiles/MegviiBeautify-jni.dir/WorkerThread.cpp.o	a73aebcdf523a3f2
+288	1503	0	CMakeFiles/MegviiBeautify-jni.dir/megvii_beautify_jni.cpp.o	c76c352960f7bcd9
+1503	1723	0	C:/Users/bignox/Desktop/Beautify-Demo-master/megviibeautyjni/src/main/jniLibs/arm64-v8a/libMegviiBeautify-jni.so	f286c34fad827d0f

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Megvii Beautify</string>
+
+    <string name="title_activity_main">Megvii Beautify</string>
+    <string name="version">Version</string>
+    <string name="seekbartitle">Options</string>
+    <string name="sticker">Sticker</string>
+    <string name="filter">Filter</string>
+    <string name="beautity">Shape Beautify</string>
+    <string name="beauty">Face Beautify</string>
+    <string name="cut_image">Image Matting</string>
+    <string name="denoise">Smooth Skin</string>
+    <string name="white">Whitening</string>
+    <string name="brighteneye">Bright</string>
+    <string name="tooth">White Teeth</string>>
+    <string name="red">Ruddy</string>
+    <string name="removespeckles">Remove Speckles</string>
+    <string name="removeeyebags">Remove Eyebags</string>
+    <string name="highnosebridge">High Nosebridge</string>
+    <string name="upcheek">Up Cheek</string>
+    <string name="eye">Big Eye</string>
+    <string name="face">Short Face</string>
+    <string name="removeeyebrow">Remove Eyebrow</string>
+    <string name= "skinbalance">Skin Balance</string>
+    <string name="thinface">Thin Face</string>
+    <string name="makeup">Makeup</string>
+    <string name="eyebrow">Eyebrow Beautify</string>
+    <string name="lip">Lipstick</string>
+    <string name="blush">Blush</string>
+    <string name="shading">Shading</string>
+    <string name="eyeshadow">Eye Shadow</string>
+    <string name="contactlens">Con</string>
+    <string name="title_activity_launch">LaunchActivity</string>
+    <string name="text_saved">Successfully saved</string>
+    <string name="err_camera">Open camera failed</string>
+    <string name="err_gallery">Open gallery failed</string>
+    <string name="beaufify_demo">Beautify Demo</string>
+    <string name="realtime_preview">Realtime Preview</string>
+    <string name="post_process">Post Process</string>
+    <string name="batch_post_process">Batch Post Process</string>
+    <string name="save">Save</string>
+    <string name="marks">Marks</string>
+    <string name="click_download">download</string>
+    <string name="downloading">loading</string>
+    <string name="origin">Origin</string>
+    <string name="gallery">Gallery</string>
+</resources>

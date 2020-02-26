@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeautifyParams>
+    <param id="denoise">
+        <coefficient>5.0</coefficient>
+    </param>
+    <param id="brightness">
+        <coefficient>3.1</coefficient>
+    </param>
+    <param id="brightness_eye">
+        <coefficient>4.0</coefficient>
+    </param>
+    <param id="teeth">
+        <coefficient>5.0</coefficient>
+    </param>
+    <param id="remove_speckles">
+        <coefficient>5.0</coefficient>
+    </param>
+    <param id="remove_eyebags">
+        <coefficient>5.0</coefficient>
+    </param>
+    <param id="high_nosebridge">
+        <coefficient>5.0</coefficient>
+    </param>
+    <param id="up_cheek">
+        <coefficient>5.0</coefficient>
+    </param>
+    <param id="skin_balance">
+        <coefficient>5.0</coefficient>
+    </param>
+    <param id="pink">
+        <coefficient>3.1</coefficient>
+    </param>
+    <param id="small_face">
+        <coefficient>4.0</coefficient>
+    </param>
+    <param id="enlarge_eye">
+        <coefficient>5.0</coefficient>
+    </param>
+    <param id="thin_face">
+        <coefficient>3.1</coefficient>
+    </param>
+    <param id="remove_eyebrow">
+        <coefficient>3.1</coefficient>
+    </param>
+    <param id="eyebrow">
+        <coefficient>4.0</coefficient>
+        <color>0</color>
+        <type>0</type>
+    </param>
+    <param id="blush">
+        <coefficient>4.0</coefficient>
+        <color>0</color>
+        <type>0</type>
+    </param>
+    <param id="eyeshadow">
+        <coefficient>4.0</coefficient>
+        <color>0</color>
+        <type>0</type>
+    </param>
+    <param id="shading">
+        <coefficient>4.0</coefficient>
+        <type>0</type>
+    </param>
+    <param id="lip">
+        <coefficient>5.0</coefficient>
+        <color>0</color>
+    </param>
+    <param id="contact_lens">
+        <coefficient>5.0</coefficient>
+        <type>0</type>
+    </param>
+</BeautifyParams>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+
+    <com.megvii.beautify.ui.test.ImageTest.RbGlsurfaceview
+        android:id="@+id/gfv_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:background="#6f333333"
+        android:text="测试说明：图片处理只展示了添加贴纸\n和美颜部分的逻辑，可以参考实现.\nps:已经有美颜，大眼了，而且我相信，\n我拿到的图片绝对是化妆后加美颜过的，所以效果不明显\n想用我的照片但是我怕影响使用sdk的心情 " />
+
+    <TextView
+        android:id="@+id/tv_change_sticker"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="#191"
+        android:gravity="center"
+        android:text="切换贴纸"
+        android:textColor="#000"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

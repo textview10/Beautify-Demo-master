@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <include layout="@layout/fragment_title_view" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.megvii.beautify.ui.SeekBarRelativeLayout
+            android:id="@+id/skin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:visibility="visible" />
+
+            <com.megvii.beautify.ui.SeekBarRelativeLayout
+                android:id="@+id/white"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"/>
+
+            <com.megvii.beautify.ui.SeekBarRelativeLayout
+                android:id="@+id/brighteneye"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"/>
+
+            <com.megvii.beautify.ui.SeekBarRelativeLayout
+                android:id="@+id/tooth"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"/>
+
+            <com.megvii.beautify.ui.SeekBarRelativeLayout
+                android:id="@+id/remove_eyebags"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"/>
+
+            <com.megvii.beautify.ui.SeekBarRelativeLayout
+                android:id="@+id/red"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

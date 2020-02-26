@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="测试说明：一个流程完整是初始化-处理-释放\n每个流程包括总流程可以控制执行的次数"
+        android:textColor="#234" />
+
+    <TextView
+        android:id="@+id/tv_repeat"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_title"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#262"
+        android:gravity="center"
+        android:text="总流程执行次数"
+        android:textColor="#234" />
+
+    <EditText
+        android:id="@+id/et_repeat_count"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/tv_repeat"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#262"
+        android:gravity="center"
+        android:text="1"
+
+        android:textColor="#099" />
+
+    <TextView
+        android:id="@+id/tv_init_repeat"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_repeat"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#262"
+        android:gravity="center"
+        android:text="init执行次数"
+        android:textColor="#234" />
+
+    <EditText
+        android:id="@+id/et_init_repeat_count"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/tv_init_repeat"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#262"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#099" />
+
+    <TextView
+        android:id="@+id/tv_process_repeat"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_init_repeat"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#262"
+        android:gravity="center"
+        android:text="process执行次数"
+        android:textColor="#234" />
+
+
+    <EditText
+        android:id="@+id/et_process_repeat_count"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/tv_process_repeat"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#262"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#099" />
+
+    <TextView
+        android:id="@+id/tv_release_repeat"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_process_repeat"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#262"
+        android:gravity="center"
+        android:text="process执行次数"
+        android:textColor="#234" />
+
+
+    <EditText
+        android:id="@+id/et_release_repeat_count"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/tv_release_repeat"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#262"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#099" />
+
+    <TextView
+        android:id="@+id/tv_exec"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_release_repeat"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#262"
+        android:gravity="center"
+        android:text="执行"
+        android:textColor="#234" />
+
+    　
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_exec">
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_exec"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="结果：测试环境，流程要合理～～！"
+            android:textColor="#000" />
+
+    </ScrollView>
+
+
+</RelativeLayout>

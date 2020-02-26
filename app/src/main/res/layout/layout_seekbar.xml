@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_percent"
+        android:layout_width="25dp"
+        android:layout_height="16dp"
+        android:background="@drawable/bg_number"
+        android:gravity="center_horizontal"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/seekbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/seekbartitle"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <SeekBar
+        android:id="@+id/ss_strength"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_percent"
+        style="@style/SeekBarStype"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:max="100"
+        android:maxHeight="1dp"
+        android:minHeight="1dp"
+        android:progress="0"
+        android:progressDrawable="@drawable/layer_seekbar"
+        android:thumb="@drawable/shape_seekbar_thumb"
+        android:thumbOffset="8dp"/>
+
+</RelativeLayout>

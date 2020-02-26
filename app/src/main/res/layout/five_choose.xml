@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/five_choose_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        tools:text="test" />
+
+    <RadioGroup
+        android:id="@+id/five_choose_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/choose_none"
+            style="@style/FiveChooseRadioStyle"
+            android:background="@drawable/sticker_cancel" />
+
+        <RadioButton
+            android:id="@+id/choose_one"
+            style="@style/FiveChooseRadioStyle"
+            android:text="1" />
+
+        <RadioButton
+            android:id="@+id/choose_two"
+            style="@style/FiveChooseRadioStyle"
+            android:text="2" />
+
+        <RadioButton
+            android:id="@+id/choose_three"
+            style="@style/FiveChooseRadioStyle"
+            android:text="3" />
+
+        <RadioButton
+            android:id="@+id/choose_four"
+            style="@style/FiveChooseRadioStyle"
+            android:text="4" />
+
+        <RadioButton
+            android:id="@+id/choose_five"
+            style="@style/FiveChooseRadioStyle"
+            android:text="5" />
+    </RadioGroup>
+</LinearLayout>

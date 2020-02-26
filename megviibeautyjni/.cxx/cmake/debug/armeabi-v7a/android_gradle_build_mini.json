@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "C:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp\\beautify_image\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\develop\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\.cxx\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "beauty-Debug-armeabi-v7a": {
+      "artifactName": "beauty",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp\\..\\jniLibs\\armeabi-v7a\\libMGBeauty.so"
+    },
+    "MegviiDlmk-Debug-armeabi-v7a": {
+      "artifactName": "MegviiDlmk",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\cpp\\..\\jniLibs\\armeabi-v7a\\libMegviiDlmk.so"
+    },
+    "MegviiBeautify-jni-Debug-armeabi-v7a": {
+      "artifactName": "MegviiBeautify-jni",
+      "buildCommand": "C:\\develop\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\.cxx\\cmake\\debug\\armeabi-v7a --target MegviiBeautify-jni",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\jniLibs\\armeabi-v7a\\libMegviiBeautify-jni.so"
+    },
+    "MegviiBeautifyImage-Debug-armeabi-v7a": {
+      "artifactName": "MegviiBeautifyImage",
+      "buildCommand": "C:\\develop\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\.cxx\\cmake\\debug\\armeabi-v7a --target MegviiBeautifyImage",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\bignox\\Desktop\\Beautify-Demo-master\\megviibeautyjni\\src\\main\\jniLibs\\armeabi-v7a\\libMegviiBeautifyImage.so"
+    }
+  }
+}
